@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+
+}
+
+.background{
+  background-image: url('../images/health.jpg');
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 900px;
+  background-size: cover;
+}
+
+h1{
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  padding-top: 175px;
+  padding-left: 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.food{
+background-color: transparent;
+margin-top: 35px;
+float: left;
+margin-left: 255px;
+}
+
+.exercise{
+background-color: transparent;
+margin-top: 35px;
+float: left;
+padding-left: 35px;
+}
+
+.food:hover{
+  background-color: white;
+  text-decoration: none;
+}
+
+.food:visited{
+  backround-color: red;
+  text-decoration: none;
+}
